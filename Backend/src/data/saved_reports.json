@@ -1,0 +1,655 @@
+[
+  {
+    "id": "diag-seed-tomato-1",
+    "timestamp": "2026-08-27T01:30:54.511Z",
+    "crop": {
+      "id": "tomato",
+      "name": "Tomato",
+      "botanicalName": "Solanum lycopersicum"
+    },
+    "disease": {
+      "id": "tomato-early-blight",
+      "name": "Tomato Early Blight",
+      "scientificName": "Alternaria solani",
+      "pathogenType": "Fungal"
+    },
+    "confidence": 96.2,
+    "severity": "Moderate",
+    "severityScore": 64,
+    "visualSymptomsDetected": [
+      "Concentric target rings",
+      "Yellowing chlorosis around spots",
+      "Basal leaf drying"
+    ],
+    "lesionHotspots": [
+      {
+        "x": 30,
+        "y": 35,
+        "width": 25,
+        "height": 20,
+        "label": "Alternaria Lesion",
+        "confidence": 0.96
+      }
+    ],
+    "possibleCauses": [
+      "High humidity (>80%) with warm temps",
+      "Overhead sprinkler splash"
+    ],
+    "immediateActions": [
+      "Prune bottom infected leaves",
+      "Switch strictly to drip irrigation",
+      "Apply Mancozeb spray"
+    ],
+    "organicTreatment": [
+      "Neem oil spray (5ml/L)",
+      "Trichoderma harzianum bio-agent foliar application"
+    ],
+    "chemicalTreatment": [
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2.5g / Liter",
+        "instructions": "Foliar spray underside of leaves",
+        "safetyPrecautions": "Wear gloves, mask"
+      }
+    ],
+    "preventiveMeasures": [
+      "Crop rotation with cereals",
+      "Stake plants 30cm above ground"
+    ],
+    "recommendedAgriPractices": [
+      "Raised bed planting with mulch"
+    ],
+    "whenToContactExpert": "If more than 25% of canopy shows rapid lesion spread",
+    "similarDiseases": [
+      {
+        "name": "Tomato Late Blight",
+        "distinguishingFactor": "Late blight has water-soaked lesions with white mold"
+      }
+    ],
+    "disclaimer": "AI results are recommendations, not a replacement for professional agricultural diagnosis.",
+    "modelMetadata": {
+      "modelName": "CropGuard Ag-Vision v3.4",
+      "inferenceLatencyMs": 420,
+      "version": "3.4.2",
+      "dataset": "ICAR Field Data"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?auto=format&fit=crop&w=600&q=80",
+    "fieldLocation": "Plot 3, North Polyhouse",
+    "farmerName": "Rajesh Patil"
+  },
+  {
+    "id": "diag-seed-rice-1",
+    "timestamp": "2026-08-25T19:30:54.511Z",
+    "crop": {
+      "id": "rice",
+      "name": "Rice / Paddy",
+      "botanicalName": "Oryza sativa"
+    },
+    "disease": {
+      "id": "rice-leaf-blast",
+      "name": "Rice Leaf Blast",
+      "scientificName": "Magnaporthe oryzae",
+      "pathogenType": "Fungal"
+    },
+    "confidence": 94.7,
+    "severity": "Severe",
+    "severityScore": 88,
+    "visualSymptomsDetected": [
+      "Spindle/diamond shaped spots",
+      "Ashy-grey center with dark reddish margin",
+      "Panicle neck rot"
+    ],
+    "lesionHotspots": [
+      {
+        "x": 45,
+        "y": 25,
+        "width": 20,
+        "height": 35,
+        "label": "Blast Spindle Lesion",
+        "confidence": 0.94
+      }
+    ],
+    "possibleCauses": [
+      "Excessive urea fertilizer",
+      "High humidity with cool night temps"
+    ],
+    "immediateActions": [
+      "Stop nitrogen fertilizer top-dressing",
+      "Drain standing water for 24h",
+      "Spray Tricyclazole"
+    ],
+    "organicTreatment": [
+      "Cow urine extract with Nirgundi leaves",
+      "Pseudomonas fluorescens spray"
+    ],
+    "chemicalTreatment": [
+      {
+        "name": "Tricyclazole 75% WP",
+        "dosage": "0.6g / Liter",
+        "instructions": "Spray at first symptom",
+        "safetyPrecautions": "Wear rubber gloves"
+      }
+    ],
+    "preventiveMeasures": [
+      "Seed treatment with Carbendazim",
+      "Blast resistant seeds"
+    ],
+    "recommendedAgriPractices": [
+      "Alternate Wetting and Drying (AWD) water management"
+    ],
+    "whenToContactExpert": "If panicle neck rot begins to emerge",
+    "similarDiseases": [
+      {
+        "name": "Brown Spot",
+        "distinguishingFactor": "Brown spot produces oval spots without pointed spindle ends"
+      }
+    ],
+    "disclaimer": "AI results are recommendations, not a replacement for professional agricultural diagnosis.",
+    "modelMetadata": {
+      "modelName": "CropGuard Ag-Vision v3.4",
+      "inferenceLatencyMs": 380,
+      "version": "3.4.2",
+      "dataset": "ICAR Field Data"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1536657464919-892534f60d6e?auto=format&fit=crop&w=600&q=80",
+    "fieldLocation": "Field 2B, Canal Side",
+    "farmerName": "Gurpreet Singh"
+  },
+  {
+    "id": "diag-seed-tomato-healthy",
+    "timestamp": "2026-08-23T19:30:54.511Z",
+    "crop": {
+      "id": "tomato",
+      "name": "Tomato",
+      "botanicalName": "Solanum lycopersicum"
+    },
+    "disease": {
+      "id": "tomato-healthy",
+      "name": "Healthy Tomato Leaf",
+      "scientificName": "Solanum lycopersicum (Healthy)",
+      "pathogenType": "Nutritional"
+    },
+    "confidence": 98.8,
+    "severity": "Healthy",
+    "severityScore": 0,
+    "visualSymptomsDetected": [
+      "Vibrant emerald green",
+      "Uniform leaf texture",
+      "No spots or chlorosis"
+    ],
+    "lesionHotspots": [],
+    "possibleCauses": [
+      "Optimal agronomic care and balanced fertilizer"
+    ],
+    "immediateActions": [
+      "Continue standard crop management"
+    ],
+    "organicTreatment": [
+      "Seaweed extract tonic (2ml/L)"
+    ],
+    "chemicalTreatment": [],
+    "preventiveMeasures": [
+      "Maintain balanced NPK and regular scouting"
+    ],
+    "recommendedAgriPractices": [
+      "Yellow sticky traps for insect monitoring"
+    ],
+    "whenToContactExpert": "Only if weather drops suddenly",
+    "similarDiseases": [],
+    "disclaimer": "AI results are recommendations, not a replacement for professional agricultural diagnosis.",
+    "modelMetadata": {
+      "modelName": "CropGuard Ag-Vision v3.4",
+      "inferenceLatencyMs": 310,
+      "version": "3.4.2",
+      "dataset": "ICAR Field Data"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?auto=format&fit=crop&w=600&q=80",
+    "fieldLocation": "Greenhouse A",
+    "farmerName": "Rajesh Patil"
+  },
+  {
+    "id": "diag-1787859684349-onrcs",
+    "timestamp": "2026-08-27T19:41:24.349Z",
+    "crop": {
+      "id": "tomato",
+      "name": "Tomato",
+      "botanicalName": "Solanum lycopersicum"
+    },
+    "disease": {
+      "id": "tomato-early-blight",
+      "name": "Tomato Early Blight",
+      "scientificName": "Alternaria solani",
+      "pathogenType": "Fungal"
+    },
+    "confidence": 94.8,
+    "severity": "Moderate",
+    "severityScore": 64,
+    "visualSymptomsDetected": [
+      "Concentric target rings",
+      "Yellowing chlorosis around spots",
+      "Basal leaf drying"
+    ],
+    "lesionHotspots": [
+      {
+        "x": 32,
+        "y": 28,
+        "width": 22,
+        "height": 18,
+        "label": "Tomato Early Blight - Primary Lesion",
+        "confidence": 0.96
+      },
+      {
+        "x": 58,
+        "y": 44,
+        "width": 19,
+        "height": 21,
+        "label": "Tomato Early Blight - Spore Halo",
+        "confidence": 0.91
+      },
+      {
+        "x": 22,
+        "y": 65,
+        "width": 16,
+        "height": 15,
+        "label": "Chlorotic Halo Zone",
+        "confidence": 0.88
+      }
+    ],
+    "possibleCauses": [
+      "High humidity (>80%) combined with warm temperatures (24°C - 29°C)",
+      "Overhead sprinkler irrigation splashing fungal spores from soil onto lower leaves",
+      "Poor crop spacing and dense foliage trapping moisture",
+      "Continuous monoculture of tomato/potato in the same plot"
+    ],
+    "immediateActions": [
+      "Immediately prune and incinerate/bury severely infected bottom leaves. Do not compost them.",
+      "Discontinue overhead irrigation; switch strictly to root-zone drip or furrow watering.",
+      "Avoid touching or cultivating healthy plants when foliage is damp.",
+      "Apply an emergency protective bio-fungicide or copper spray within 24 hours."
+    ],
+    "organicTreatment": [
+      "Spray cold-pressed Neem Oil (3-5 ml/L) mixed with mild soap emulsifier every 7 days.",
+      "Foliar spray with Trichoderma harzianum or Bacillus subtilis bio-formulation (5g/L).",
+      "Apply Copper Hydroxide / Bordeaux mixture (1%) as an organic certified protectant.",
+      "Mulch base of plants with organic straw to prevent soil-to-leaf spore splashing."
+    ],
+    "chemicalTreatment": [
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2.5g per Liter of water",
+        "instructions": "Thorough foliar spray covering underside of leaves. Repeat every 7-10 days under cloudy weather.",
+        "safetyPrecautions": "Wear gloves, mask, and maintain a 7-day pre-harvest interval (PHI)."
+      },
+      {
+        "name": "Azoxystrobin 18.2% + Difenoconazole 11.4% SC",
+        "dosage": "1ml per Liter of water",
+        "instructions": "Systemic curative action. Apply at initial symptom appearance.",
+        "safetyPrecautions": "Rotate chemical groups to prevent fungal resistance. Max 2 applications per season."
+      }
+    ],
+    "preventiveMeasures": [
+      "Treat seeds with Thiram or Trichoderma viride before sowing.",
+      "Maintain 3-year crop rotation without Solanaceae members.",
+      "Ensure high potassium and balanced nitrogen fertilization to strengthen cell walls.",
+      "Erect strong trellising to keep plants 30cm above ground level."
+    ],
+    "recommendedAgriPractices": [
+      "Adopt raised bed cultivation with silver-black polyethylene mulch.",
+      "Soil solarization during peak summer to kill overwintering chlamydospores.",
+      "Regular field scouting every 48 hours during monsoon transitions.",
+      "Ensure 60cm x 45cm plant spacing for adequate air circulation.",
+      "Always stake vines to keep foliage off moist soil.",
+      "Use drip irrigation instead of overhead sprinklers to minimize leaf wetness.",
+      "Rotate with non-solanaceous crops (maize, pulses) every 2 years."
+    ],
+    "whenToContactExpert": "Contact local KVK if more than 25% of canopy shows rapid lesion spread despite 2 consecutive fungicide applications.",
+    "similarDiseases": [
+      {
+        "name": "Tomato Late Blight",
+        "distinguishingFactor": "Late blight produces large water-soaked greasy lesions with white mold on leaf underside, without concentric target rings."
+      },
+      {
+        "name": "Septoria Leaf Spot",
+        "distinguishingFactor": "Septoria creates smaller (2-3mm) circular spots with light grey centers and dark margins with tiny black specks."
+      }
+    ],
+    "disclaimer": "AI results are recommendations, not a replacement for professional agricultural diagnosis. Consult local KVK officers or certified agronomists before applying restricted chemical pesticides.",
+    "modelMetadata": {
+      "modelName": "CropGuard Ag-Vision Transformer v3.4",
+      "inferenceLatencyMs": 470,
+      "version": "3.4.2-prod",
+      "dataset": "PlantVillage + ICAR Indian Agro-Climatic Field Data (85,000+ validated leaves)"
+    },
+    "imageUrl": "/uploads/leaf-1787859684339-451991311.jpeg",
+    "farmerName": "Rajesh Patil",
+    "fieldLocation": "Plot 3, North Farm"
+  },
+  {
+    "id": "diag-1787859907733-m944d",
+    "timestamp": "2026-08-27T19:45:07.733Z",
+    "crop": {
+      "id": "tomato",
+      "name": "Tomato",
+      "botanicalName": "Solanum lycopersicum"
+    },
+    "disease": {
+      "id": "tomato-early-blight",
+      "name": "Tomato Early Blight",
+      "scientificName": "Alternaria solani",
+      "pathogenType": "Fungal"
+    },
+    "confidence": 94.1,
+    "severity": "Moderate",
+    "severityScore": 64,
+    "visualSymptomsDetected": [
+      "Concentric target rings",
+      "Yellowing chlorosis around spots",
+      "Basal leaf drying"
+    ],
+    "lesionHotspots": [
+      {
+        "x": 32,
+        "y": 28,
+        "width": 22,
+        "height": 18,
+        "label": "Tomato Early Blight - Primary Lesion",
+        "confidence": 0.96
+      },
+      {
+        "x": 58,
+        "y": 44,
+        "width": 19,
+        "height": 21,
+        "label": "Tomato Early Blight - Spore Halo",
+        "confidence": 0.91
+      },
+      {
+        "x": 22,
+        "y": 65,
+        "width": 16,
+        "height": 15,
+        "label": "Chlorotic Halo Zone",
+        "confidence": 0.88
+      }
+    ],
+    "possibleCauses": [
+      "High humidity (>80%) combined with warm temperatures (24°C - 29°C)",
+      "Overhead sprinkler irrigation splashing fungal spores from soil onto lower leaves",
+      "Poor crop spacing and dense foliage trapping moisture",
+      "Continuous monoculture of tomato/potato in the same plot"
+    ],
+    "immediateActions": [
+      "Immediately prune and incinerate/bury severely infected bottom leaves. Do not compost them.",
+      "Discontinue overhead irrigation; switch strictly to root-zone drip or furrow watering.",
+      "Avoid touching or cultivating healthy plants when foliage is damp.",
+      "Apply an emergency protective bio-fungicide or copper spray within 24 hours."
+    ],
+    "organicTreatment": [
+      "Spray cold-pressed Neem Oil (3-5 ml/L) mixed with mild soap emulsifier every 7 days.",
+      "Foliar spray with Trichoderma harzianum or Bacillus subtilis bio-formulation (5g/L).",
+      "Apply Copper Hydroxide / Bordeaux mixture (1%) as an organic certified protectant.",
+      "Mulch base of plants with organic straw to prevent soil-to-leaf spore splashing."
+    ],
+    "chemicalTreatment": [
+      {
+        "name": "Mancozeb 75% WP",
+        "dosage": "2.5g per Liter of water",
+        "instructions": "Thorough foliar spray covering underside of leaves. Repeat every 7-10 days under cloudy weather.",
+        "safetyPrecautions": "Wear gloves, mask, and maintain a 7-day pre-harvest interval (PHI)."
+      },
+      {
+        "name": "Azoxystrobin 18.2% + Difenoconazole 11.4% SC",
+        "dosage": "1ml per Liter of water",
+        "instructions": "Systemic curative action. Apply at initial symptom appearance.",
+        "safetyPrecautions": "Rotate chemical groups to prevent fungal resistance. Max 2 applications per season."
+      }
+    ],
+    "preventiveMeasures": [
+      "Treat seeds with Thiram or Trichoderma viride before sowing.",
+      "Maintain 3-year crop rotation without Solanaceae members.",
+      "Ensure high potassium and balanced nitrogen fertilization to strengthen cell walls.",
+      "Erect strong trellising to keep plants 30cm above ground level."
+    ],
+    "recommendedAgriPractices": [
+      "Adopt raised bed cultivation with silver-black polyethylene mulch.",
+      "Soil solarization during peak summer to kill overwintering chlamydospores.",
+      "Regular field scouting every 48 hours during monsoon transitions.",
+      "Ensure 60cm x 45cm plant spacing for adequate air circulation.",
+      "Always stake vines to keep foliage off moist soil.",
+      "Use drip irrigation instead of overhead sprinklers to minimize leaf wetness.",
+      "Rotate with non-solanaceous crops (maize, pulses) every 2 years."
+    ],
+    "whenToContactExpert": "Contact local KVK if more than 25% of canopy shows rapid lesion spread despite 2 consecutive fungicide applications.",
+    "similarDiseases": [
+      {
+        "name": "Tomato Late Blight",
+        "distinguishingFactor": "Late blight produces large water-soaked greasy lesions with white mold on leaf underside, without concentric target rings."
+      },
+      {
+        "name": "Septoria Leaf Spot",
+        "distinguishingFactor": "Septoria creates smaller (2-3mm) circular spots with light grey centers and dark margins with tiny black specks."
+      }
+    ],
+    "disclaimer": "AI results are recommendations, not a replacement for professional agricultural diagnosis. Consult local KVK officers or certified agronomists before applying restricted chemical pesticides.",
+    "modelMetadata": {
+      "modelName": "CropGuard Ag-Vision Transformer v3.4",
+      "inferenceLatencyMs": 419,
+      "version": "3.4.2-prod",
+      "dataset": "PlantVillage + ICAR Indian Agro-Climatic Field Data (85,000+ validated leaves)"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?auto=format&fit=crop&w=400&q=80",
+    "farmerName": "Rajesh Patil",
+    "fieldLocation": "Plot 3, North Farm"
+  },
+  {
+    "id": "diag-1787859921692-e89go",
+    "timestamp": "2026-08-27T19:45:21.692Z",
+    "crop": {
+      "id": "potato",
+      "name": "Potato",
+      "botanicalName": "Solanum tuberosum"
+    },
+    "disease": {
+      "id": "potato-early-blight",
+      "name": "Potato Early Blight",
+      "scientificName": "Alternaria solani",
+      "pathogenType": "Fungal"
+    },
+    "confidence": 95.9,
+    "severity": "Moderate",
+    "severityScore": 64,
+    "visualSymptomsDetected": [
+      "Target ring spots on lower leaves",
+      "Yellowing leaf margins",
+      "Dry brittleness"
+    ],
+    "lesionHotspots": [
+      {
+        "x": 32,
+        "y": 28,
+        "width": 22,
+        "height": 18,
+        "label": "Potato Early Blight - Primary Lesion",
+        "confidence": 0.96
+      },
+      {
+        "x": 58,
+        "y": 44,
+        "width": 19,
+        "height": 21,
+        "label": "Potato Early Blight - Spore Halo",
+        "confidence": 0.91
+      },
+      {
+        "x": 22,
+        "y": 65,
+        "width": 16,
+        "height": 15,
+        "label": "Chlorotic Halo Zone",
+        "confidence": 0.88
+      }
+    ],
+    "possibleCauses": [
+      "Stress conditions like low nitrogen, drought followed by heavy dew or rains",
+      "Continuous potato cropping without rotation"
+    ],
+    "immediateActions": [
+      "Remove infected lower foliage.",
+      "Optimize nitrogen-potassium top dressing to relieve crop stress.",
+      "Apply protective fungicide spray immediately."
+    ],
+    "organicTreatment": [
+      "Pseudomonas fluorescens foliar spray (5g/L).",
+      "Neem cake application in soil (250 kg/ha).",
+      "Garlic-chili extract spray."
+    ],
+    "chemicalTreatment": [
+      {
+        "name": "Chlorothalonil 75% WP",
+        "dosage": "2g per Liter of water",
+        "instructions": "Spray at 10-day intervals beginning when plants are 15-20cm tall.",
+        "safetyPrecautions": "Toxic to aquatic organisms; avoid spraying near waterways."
+      },
+      {
+        "name": "Propineb 70% WP",
+        "dosage": "2.5g per Liter of water",
+        "instructions": "Provides zinc nutrition alongside fungal control.",
+        "safetyPrecautions": "Wear eye protection."
+      }
+    ],
+    "preventiveMeasures": [
+      "Harvest only when vines are fully mature and skin is set.",
+      "Store tubers in cool, ventilated, dark storage facilities."
+    ],
+    "recommendedAgriPractices": [
+      "Maintain adequate soil moisture without waterlogging.",
+      "Use certified disease-free seed tubers with sprouted eyes.",
+      "Treat seed tubers with Mancozeb (2.5g/kg) or boric acid (3%) before planting.",
+      "Perform earthing-up 30-35 days after sowing to protect tubers from direct sunlight and pests."
+    ],
+    "whenToContactExpert": "If spots develop rapidly on top leaves during tuber bulking phase.",
+    "similarDiseases": [
+      {
+        "name": "Potato Late Blight",
+        "distinguishingFactor": "Late blight creates large watery lesions with white mold on leaf underside and rots entire tubers."
+      }
+    ],
+    "disclaimer": "AI results are recommendations, not a replacement for professional agricultural diagnosis. Consult local KVK officers or certified agronomists before applying restricted chemical pesticides.",
+    "modelMetadata": {
+      "modelName": "CropGuard Ag-Vision Transformer v3.4",
+      "inferenceLatencyMs": 508,
+      "version": "3.4.2-prod",
+      "dataset": "PlantVillage + ICAR Indian Agro-Climatic Field Data (85,000+ validated leaves)"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=400&q=80",
+    "farmerName": "Rajesh Patil",
+    "fieldLocation": "Plot 3, North Farm"
+  },
+  {
+    "id": "diag-1787896432491-wk4qo",
+    "timestamp": "2026-08-28T05:53:52.491Z",
+    "crop": {
+      "id": "rice",
+      "name": "Rice / Paddy",
+      "botanicalName": "Oryza sativa"
+    },
+    "disease": {
+      "id": "rice-leaf-blast",
+      "name": "Rice Leaf Blast",
+      "scientificName": "Magnaporthe oryzae (Pyricularia oryzae)",
+      "pathogenType": "Fungal"
+    },
+    "confidence": 97.1,
+    "severity": "Severe",
+    "severityScore": 91,
+    "visualSymptomsDetected": [
+      "Spindle/diamond shaped spots",
+      "Ashy-grey center with dark reddish margin",
+      "Panicle neck rot"
+    ],
+    "lesionHotspots": [
+      {
+        "x": 32,
+        "y": 28,
+        "width": 22,
+        "height": 18,
+        "label": "Rice Leaf Blast - Primary Lesion",
+        "confidence": 0.96
+      },
+      {
+        "x": 58,
+        "y": 44,
+        "width": 19,
+        "height": 21,
+        "label": "Rice Leaf Blast - Spore Halo",
+        "confidence": 0.91
+      },
+      {
+        "x": 22,
+        "y": 65,
+        "width": 16,
+        "height": 15,
+        "label": "Chlorotic Halo Zone",
+        "confidence": 0.88
+      }
+    ],
+    "possibleCauses": [
+      "Excessive nitrogenous fertilizer usage without adequate potassium and silica",
+      "High relative humidity (>90%) with night temperatures of 17°C - 20°C and persistent morning dew",
+      "Dense seedling beds with poor light penetration"
+    ],
+    "immediateActions": [
+      "Immediately suspend all nitrogen fertilizer (urea) top-dressing.",
+      "Drain standing water and allow soil to aerate for 24-48 hours if soil permits.",
+      "Apply systemic blast-specific fungicide immediately."
+    ],
+    "organicTreatment": [
+      "Foliar spray of 20% cow urine extract with Vitex negundo (Nirgundi) leaf extract.",
+      "Seed treatment and nursery spray with Pseudomonas fluorescens (10g/kg and 2.5g/L).",
+      "Silica fertilization (calcium silicate) to strengthen silica-cellulose layer in rice epidermis."
+    ],
+    "chemicalTreatment": [
+      {
+        "name": "Tricyclazole 75% WP",
+        "dosage": "0.6g per Liter of water",
+        "instructions": "Highly specific systemic blast fungicide. Spray at first sign of leaf spots and again at heading.",
+        "safetyPrecautions": "Apply with cone nozzle; do not mix with alkaline substances."
+      },
+      {
+        "name": "Isoprothiolane 40% EC",
+        "dosage": "1.5ml per Liter of water",
+        "instructions": "Effective curative action against both leaf and neck blast.",
+        "safetyPrecautions": "Wear rubber gloves and mask."
+      }
+    ],
+    "preventiveMeasures": [
+      "Use blast-resistant cultivars recommended by ICAR/CRRI.",
+      "Soak seeds in Carbendazim solution (2g/kg) for 24 hours prior to sowing.",
+      "Maintain balanced N:P:K:Si ratio."
+    ],
+    "recommendedAgriPractices": [
+      "Avoid late transplanting in blast-prone regions.",
+      "Keep bunds clean of grass weed hosts.",
+      "System of Rice Intensification (SRI) or alternate wetting and drying (AWD) to save water.",
+      "Balanced fertilizer application split into 3 doses with neem-coated urea.",
+      "Maintain 20cm x 15cm hill spacing."
+    ],
+    "whenToContactExpert": "If blast lesions appear on neck of emerging panicles (Neck blast can cause 80%+ grain loss).",
+    "similarDiseases": [
+      {
+        "name": "Brown Spot",
+        "distinguishingFactor": "Brown spot has circular to oval brown spots with bright yellow haloes, whereas blast has pointed spindle-shaped lesions."
+      }
+    ],
+    "disclaimer": "AI results are recommendations, not a replacement for professional agricultural diagnosis. Consult local KVK officers or certified agronomists before applying restricted chemical pesticides.",
+    "modelMetadata": {
+      "modelName": "CropGuard Ag-Vision Transformer v3.4",
+      "inferenceLatencyMs": 513,
+      "version": "3.4.2-prod",
+      "dataset": "PlantVillage + ICAR Indian Agro-Climatic Field Data (85,000+ validated leaves)"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1536657464919-892534f60d6e?auto=format&fit=crop&w=400&q=80",
+    "farmerName": "Rajesh Patil",
+    "fieldLocation": "Plot 3, North Farm"
+  }
+]
